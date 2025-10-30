@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Chilitos Ramen">
+  
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Chilitos Ramen">
+  
+  <!-- IMPORTANTE: Google Sign-In Meta Tag -->
+  <meta name="google-signin-client_id" content="1075980308916-vq1kt125km9jg4n426r7mmqo640dfr99.apps.googleusercontent.com">
+  
+  <title>Chilitos Ramen</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-storage-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging-compat.js"></script>
+
+  <script>
+    // Tu configuración de Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyAGYqDE7wRSj7FL0i3MY3-meunLyXkETA0",
+      authDomain: "chilitosramen-89223.firebaseapp.com",
+      databaseURL: "https://chilitosramen-89223-default-rtdb.firebaseio.com",
+      projectId: "chilitosramen-89223",
+      storageBucket: "chilitosramen-89223.appspot.com",
+      messagingSenderId: "980858860861",
+      appId: "1:980858860861:web:50efba800ea74546a08154",
+      measurementId: "G-23ZQE8834Z"
+    };
+
+    // Inicializar Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
